@@ -1,0 +1,11 @@
+
+alias ll='ls -l'
+alias la='ls -A'
+alias l='ls -CF'
+alias srm='shred -vfzun40'
+alias lp='clear'
+alias dl='wc -l * | grep -v total'
+alias enc='openssl enc -aes-256-cbc -md sha3-512 -pbkdf2 -in'
+alias dec='openssl enc -aes-256-cbc -md sha3-512 -pbkdf2 -d -in'
+alias iptor='proxychains curl --proto "=https" https://ipinfo.io'
+alias ipip='curl --proto "=https" https://ipinfo.io'
